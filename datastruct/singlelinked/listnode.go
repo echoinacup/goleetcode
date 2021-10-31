@@ -1,4 +1,4 @@
-package ds
+package singlelinked
 
 type ListNode struct {
 	Val  int

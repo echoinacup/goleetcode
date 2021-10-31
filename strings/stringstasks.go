@@ -1,11 +1,10 @@
 package strings
 
-import "fmt"
-
 // Reverse string (Rec)
-func reverseString(s []byte) {
+func ReverseString(s []byte) string {
 	swap(s, 0, len(s)-1)
-	fmt.Println(string(s))
+	return string(s)
+
 }
 
 func swap(s []byte, begin int, end int) {
